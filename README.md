@@ -7,6 +7,13 @@ This repository contains session notes from the MLT Generative Deep Learning ses
 All sessions are dedicated to reading and discussing:
 ["Generative Deep Learning" by David Foster (O'Reilly)](https://www.oreilly.com/library/view/generative-deep-learning/9781492041931/)
 
+Notes including images and other references:
+- Title: Generative Deep Learning
+- Author(s): David Foster
+- Release date: June 2019
+- Publisher(s): O'Reilly Media, Inc.
+- ISBN: 9781492041931
+
 ## Part 1 - Introduction to Generative Deep Learning ●
 
 📌 Session # 1
