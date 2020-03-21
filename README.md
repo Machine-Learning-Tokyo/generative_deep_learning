@@ -1,6 +1,6 @@
 # Generative Deep Learning
 
-This repository contains session notes from the MLT Generative Deep Learning sessions (reading & discussion).
+This repository contains notes from the MLT Generative Deep Learning sessions (reading & discussion), led by Anuragah Sinha.
 
 # Sessions
 
@@ -9,12 +9,12 @@ All sessions are dedicated to reading and discussing:
 
 Notes including images and other references:
 - Title: Generative Deep Learning
-- Author(s): David Foster
+- Author: David Foster
 - Release date: June 2019
 - Publisher(s): O'Reilly Media, Inc.
 - ISBN: 9781492041931
 
-## Part 1 - Introduction to Generative Deep Learning ●
+## Part 1 - Introduction to Generative Deep Learning
 
 📌 Session # 1
 Chapter 1 : Generative Modeling
