@@ -1,6 +1,6 @@
 ## Generative Deep Learning (Resources) ##
 
-A list of resources concerning Deep Learning in general. These resources were shared during the study session conducted under **[Machine Learning Tokyo](https://machinelearningtokyo.com/)** targeted at the book **Generative Deep Learning (by David Foster)**. 
+A list of resources concerning Deep Learning in general. These resources were shared during the study session conducted under **[Machine Learning Tokyo](https://machinelearningtokyo.com/)** targeted at the book **[Generative Deep Learning (by David Foster)](https://www.oreilly.com/library/view/generative-deep-learning/9781492041931/)**. 
 
 The study sessions happen every Saturday, where participants have reading session and then a detailed dicussions on the topics covered. This area of the repo lists the topics and connected resources which participants share for enhancing the knowledge of the cohort. Discussions also happen on the **[Machine Learning Tokyo Slack](https://machinelearningtokyo.slack.com/)** on *generativedeeplearning* channel. 
 
