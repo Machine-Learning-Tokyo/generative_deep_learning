@@ -22,7 +22,7 @@ We build custom-built decoder network, to rebuilt image from the reduced dimensi
 ### Results ###
 We ran the experiment for just `EPOCHS=5` (due to unavailability of GPUs), and below of the sample predictions
 
-<img src="readme_resources/1_VGG19_transfer_learning_VAE_model_prediction_EPOCH_5_asinha_20200506_ver1.0.jpg" width=50% height=50%></img>
+<img src="readme_resources/1_VGG19_transfer_VAE_pred_EPOCH_5_asinha_20200506.jpg" width=50% height=50%></img>
 
 
 ### First level inference ###
@@ -37,4 +37,4 @@ At preliminary level what can be seen from the predictions is
 Is the model trying to work like a human mind, and trying to concentrate more on the eyes first, when it tries to reproduce a face? Do humans also do something similar when they reconstruct a person's image in their mind? May be possible, however, not always though. A point worth thinking about.
 
 ### Model Architecture (for reference) ###
-<img src="readme_resources/2_VGG19_transfer_learning_VAE_model_architecture_embed_128_asinha_20200506_ver1.0.jpg" width=90% height=90%></img>
+<img src="readme_resources/2_VGG19_tran_VAE_arch_embed_128_asinha_20200506.jpg" width=90% height=90%></img>
