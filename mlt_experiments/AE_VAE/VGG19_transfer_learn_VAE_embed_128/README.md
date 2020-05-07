@@ -1,4 +1,4 @@
-#### Variational Auto Encoders ####
+## Variational Auto Encoders ##
 
 Variational Auto Encoders use 2 networks to build a lower dimensional latent space representation. Specifically for "image" data:
 - Encoder Network
@@ -12,29 +12,29 @@ Variational Auto Encoders use 2 networks to build a lower dimensional latent spa
   - Use RMSE as the *reconstruction loss* parameter
   - Use *KL-Divergence loss* as a way to tune the reduced dimension latent space to have justified representation of images.
 
-#### MLT Experiment - VGG19 based Variational Auto Encoders ####
+## MLT Experiment - VGG19 based Variational Auto Encoders ##
 
 In this experiment, we use *VGG19 pre-trained network* as part of the **ENCODER** network. We keep this as `trainable=false` and take output from `block5-pool` layer of the VGG19 network. *Flatten* this representation, and build the encoder further on as described above.
 
 We build custom-built decoder network, to rebuilt image from the reduced dimension latent space, while building the loss calculations as described above.
 
 
-##### Results #####
+### Results ###
 We ran the experiment for just `EPOCHS=5` (due to unavailability of GPUs), and below of the sample predictions
 
 <img src="readme_resources/1_VGG19_transfer_learning_VAE_model_prediction_EPOCH_5_asinha_20200506_ver1.0.jpg" width=50% height=50%></img>
 
 
-##### First level inference #####
+### First level inference ###
 
 At preliminary level what can be seen from the predictions is 
 
 - The model is able to capture some high level representations of the faces. (Clarity is less but high level representation and reproducibility has been achieved)
 - The model seems to be giving some high value to reproducing **EYES**, as we can see that the **EYES** have been reconstructed in much more clearer manner, as compared to other parts of the face.
 
-**FUN QUESTION**
+#### FUN QUESTION ####
 
 Is the model trying to work like a human mind, and trying to concentrate more on the eyes first, when it tries to reproduce a face? Do humans also do something similar when they reconstruct a person's image in their mind? May be possible, however, not always though. A point worth thinking about.
 
-##### Model Architecture (for reference) #####
+### Model Architecture (for reference) ###
 <img src="readme_resources/2_VGG19_transfer_learning_VAE_model_architecture_embed_128_asinha_20200506_ver1.0.jpg" width=90% height=90%></img>
