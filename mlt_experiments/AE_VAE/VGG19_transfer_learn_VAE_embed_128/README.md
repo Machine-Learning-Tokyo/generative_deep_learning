@@ -1,4 +1,5 @@
 ## Variational Auto Encoders ##
+`UPDATE : Added prediction for EPOCH 20 runs. Please check notebooks folder (for GPU driven notebook) and predictions_epoch_20 folder for prediction samples`
 
 Variational Auto Encoders use 2 networks to build a lower dimensional latent space representation. Specifically for "image" data:
 - Encoder Network
